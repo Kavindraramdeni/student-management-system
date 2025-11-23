@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS students (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    age INT,
+    course VARCHAR(255)
+);
